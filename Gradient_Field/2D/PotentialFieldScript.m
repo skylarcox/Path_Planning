@@ -1,44 +1,70 @@
-
 %
-close all
-clear all
+% PotentialFieldScript.m
+%
+
 %% Generate some points
-start = [50, 350];
-goal = [375, 235];
 
 nrows = 500;
-ncols = 500;
+ncols = 600;
 
 obstacle = false(nrows, ncols);
 
 [x, y] = meshgrid (1:ncols, 1:nrows);
 
 %% Generate some obstacle
-rectObs = [10,200,20,250; 250,250,300,300; 450,200,500,220];
-circObs = [450,150,25;30,30,5];
 
-potentialField = gen_potential_function(goal, nrows, ncols, circObs, rectObs);
+obstacle (300:end, 100:250) = true;
+obstacle (150:200, 400:500) = true;
 
-%% Show obstacles by themselves
-%obstacle   = gen_repulsive_field(nrows,ncols, circObs,rectObs);
-obstacle = false(nrows, ncols);
-numCircObs = size(circObs,1);
-numRectObs = size(rectObs,1); 
-for iObs = 1:numCircObs
-    cntrPt  = circObs(iObs,1:2);
-    radCirc = circObs(iObs,3);
-    obsLog = ((x - cntrPt(1)).^2 + (y - cntrPt(2)).^2) < radCirc^2;
-    obstacle(obsLog) = true;
-end
+t = ((x - 200).^2 + (y - 50).^2) < 50^2;
+obstacle(t) = true;
 
-for iObs = 1:numRectObs
-    obstacle (rectObs(iObs,1):rectObs(iObs,3), rectObs(iObs,2):rectObs(iObs,4)) = true;
-end
-%potentialField = gen_potential_function(xTarget,yTarget, xSize, ySize, circObs, rectObs)
+t = ((x - 400).^2 + (y - 300).^2) < 100^2;
+obstacle(t) = true;
+
+%% Compute distance transform
+
+d = bwdist(obstacle);
+
+% Rescale and transform distances
+
+d2 = (d/100) + 1;
+
+d0 = 2;
+nu = 800;
+
+repulsive = nu*((1./d2 - 1/d0).^2);
+
+repulsive (d2 > d0) = 0;
+
+
+%% Display repulsive potential
+
+figure;
+m = mesh (repulsive);
+m.FaceLighting = 'phong';
+axis equal;
+
+title ('Repulsive Potential');
+
+%% Compute attractive force
+
+goal = [400, 50];
+
+xi = 1/700;
+
+attractive = xi * ( (x - goal(1)).^2 + (y - goal(2)).^2 );
+
+figure;
+m = mesh (attractive);
+m.FaceLighting = 'phong';
+axis equal;
+
+title ('Attractive Potential');
 
 %% Display 2D configuration space
 
-figure(3);
+figure;
 imshow(~obstacle);
 
 hold on;
@@ -56,10 +82,9 @@ title ('Configuration Space');
 
 %% Combine terms
 
-%f = attractive + repulsive;
-f = potentialField;
+f = attractive + repulsive;
 
-figure(4);
+figure;
 m = mesh (f);
 m.FaceLighting = 'phong';
 axis equal;
@@ -67,13 +92,13 @@ axis equal;
 title ('Total Potential');
 
 %% Plan route
+start = [50, 350];
 
-%start = [300,10];
-%route1 = GradientBasedPlanner_r1 (f, start, goal, 1000);
-route = GradientBasedPlanner (f, start, goal, 2000);
+route = GradientBasedPlanner (f, start, goal, 1000);
+
 %% Plot the energy surface
 
-figure(5);
+figure;
 m = mesh (f);
 axis equal;
 
@@ -111,7 +136,7 @@ end
 [gx, gy] = gradient (-f);
 skip = 20;
 
-figure(6);
+figure;
 
 xidx = 1:skip:ncols;
 yidx = 1:skip:nrows;

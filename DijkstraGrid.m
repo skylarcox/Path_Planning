@@ -157,6 +157,7 @@ else
         image(1.5, 1.5, map);
         grid on;
         axis image;
+        title('Dijkstra"s Algorithm Result')
     end
 end
 

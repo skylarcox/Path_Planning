@@ -37,16 +37,23 @@ sy = scale*sy;
 sz = scale*(sz);
 hold on;
 p = surf(sx+sphereObs(1), sy+sphereObs(2), sz+sphereObs(3));
+%p = mesh(sx+sphereObs(1), sy+sphereObs(2), sz+sphereObs(3));
 p.FaceColor = 'red';
-p.EdgeColor = 'none';
+%p.EdgeColor = 'none';
 p.FaceLighting = 'phong';
 % p.XData = sphereObs(1);
 % p.YData = sphereObs(2);
 % p.ZData = sphereObs(3);
     
 hold on
-plot3(route(:,1),route(:,2),route(:,3));
+%plot3(route(:,1),route(:,2),route(:,3));
+plot3(route(:,1),route(:,2),route(:,3),'-ob');
 grid on
+xlabel('X')
+ylabel('Y')
+zlabel('Z')
+title('Planned Path Around Sphere')
+
 %potentialField = gen_potential_function(xTarget,yTarget, xSize, ySize, circObs, rectObs)
 
 %% Display 2D configuration space

@@ -172,6 +172,7 @@ else
         image(1.5, 1.5, map);
         grid on;
         axis image;
+        title('A-Star Grid Algorithm Result')
     end
 end
 
