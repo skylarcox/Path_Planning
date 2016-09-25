@@ -9,9 +9,9 @@ goal = [375, 235];
 nrows = 500;
 ncols = 500;
 
-obstacle = false(nrows, ncols);
+%obstacle = false(nrows, ncols);
 
-[x, y] = meshgrid (1:ncols, 1:nrows);
+%[x, y] = meshgrid (1:ncols, 1:nrows);
 
 %% Generate some obstacle
 rectObs = [10,200,20,250; 250,250,300,300; 450,200,500,220];
