@@ -1,4 +1,4 @@
-function repulseField = gen_repulsive_field_3D(xSize,ySize, zSize, cylObs, sphereObs,cubeObs)
+function repulseField = gen_repulsive_field_3D_wground(xSize,ySize, zSize, cylObs, sphereObs,cubeObs)
 %
 % Inputs: 
 %       xSize - size in row space
@@ -56,6 +56,9 @@ if ~isempty(cubeObs)
         obstacle(cubeObs(iObs,1):cubeObs(iObs,4), cubeObs(iObs,2):cubeObs(iObs,5), cubeObs(iObs,3):cubeObs(iObs,6)) = true;
     end
 end
+
+% Set the ground as repulsive
+obstacle(:,:,1) = true;
 
 d = bwdist(obstacle);
 

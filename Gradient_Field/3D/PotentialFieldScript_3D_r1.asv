@@ -3,8 +3,9 @@
 close all
 clear all
 %% Generate some points
-startPos = [10, 157,12];
-goalPos = [375, 218,125];
+%startPos = [10, 157,12];
+startPos = [100, 100, 10];
+goalPos = [262, 97,25];
 maxIter = 3000;
 
 nrows = 500;
@@ -15,44 +16,53 @@ ndep = 200;
 
 %[x, y] = meshgrid (1:ncols, 1:nrows, 1:ndep);
 
-%% Generate some obstacle
+%% Generate some obstacle (in image space row x col)
 sphereRad = 40;
-sphereObs = [100,100,50,sphereRad];
-cubeObs = '';
-% cubeObs = [10,200,20,20, 250,50;...
-%     300,300,5,320,320,40];
+sphereObs = [200,200,30,sphereRad];
+%cubeObs = '';
+cubeObs = [10,200,20,20, 250,50;...
+    300,300,5,320,320,40;...
+    1,];
 % sphereObs = [1,1,1,10;...
 %     150,150,15,8];
-
-potentialField = gen_potential_function_3D(goalPos, [nrows, ncols, ndep], [], sphereObs, cubeObs);
+cylObs = [425,425,5, 150, 25];
+%potentialField = gen_potential_function_3D(goalPos, [nrows, ncols, ndep], sphereObs, cubeObs);
+potentialField = gen_potential_function_3D(goalPos, [nrows, ncols, ndep], cylObs, sphereObs, cubeObs);
 route = return_route_3D(potentialField, startPos, goalPos, maxIter);
 
+
+% keyboard
+
+
+
+
+
 %[x,y,z] = sphere(sphereRad);
-[sx, sy, sz] = sphere(sphereRad);
-figure;
-axis equal
-scale = sphereRad;
-sx = scale*sx;
-sy = scale*sy;
-sz = scale*(sz);
-hold on;
-p = surf(sx+sphereObs(1), sy+sphereObs(2), sz+sphereObs(3));
-%p = mesh(sx+sphereObs(1), sy+sphereObs(2), sz+sphereObs(3));
-p.FaceColor = 'red';
-%p.EdgeColor = 'none';
-p.FaceLighting = 'phong';
-% p.XData = sphereObs(1);
-% p.YData = sphereObs(2);
-% p.ZData = sphereObs(3);
-    
-hold on
-%plot3(route(:,1),route(:,2),route(:,3));
-plot3(route(:,1),route(:,2),route(:,3),'-ob');
-grid on
-xlabel('X')
-ylabel('Y')
-zlabel('Z')
-title('Planned Path Around Sphere')
+% [sx, sy, sz] = sphere(sphereRad);
+% figure;
+% axis equal
+% scale = sphereRad;
+% sx = scale*sx;
+% sy = scale*sy;
+% sz = scale*(sz);
+% hold on;
+% p = surf(sx+sphereObs(1), sy+sphereObs(2), sz+sphereObs(3));
+% %p = mesh(sx+sphereObs(1), sy+sphereObs(2), sz+sphereObs(3));
+% p.FaceColor = 'red';
+% %p.EdgeColor = 'none';
+% p.FaceLighting = 'phong';
+% % p.XData = sphereObs(1);
+% % p.YData = sphereObs(2);
+% % p.ZData = sphereObs(3);
+%     
+% hold on
+% %plot3(route(:,1),route(:,2),route(:,3));
+% plot3(route(:,1),route(:,2),route(:,3),'-ob');
+% grid on
+% xlabel('X')
+% ylabel('Y')
+% zlabel('Z')
+% title('Planned Path Around Sphere')
 
 %potentialField = gen_potential_function(xTarget,yTarget, xSize, ySize, circObs, rectObs)
 
