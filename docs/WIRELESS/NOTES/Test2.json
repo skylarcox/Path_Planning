@@ -1,0 +1,21 @@
+{
+  "Task": "Image",
+  "Type": "Point",
+  "Start": "43.4917,112.0340",
+  "Remaining": "Null",
+  "Ranking": 55,
+  "Constraints": {
+    "Azimuth": "Null",
+    "Elevation": "85.0:90.0",
+    "Resolution": 0.005,
+    "Image Type": "Visible"
+  },
+  "Collection": {
+    "Creation": "20161017-10:05:55",
+    "Expiration": "20161025-10:05:55",
+    "Revisit": "00001-000000",
+    "Last": "Null",
+    "Daily": "080000:180000",
+    "Absolute": "Null"
+  }
+}
