@@ -1,0 +1,62 @@
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe.config
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe.manifest
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\bin\Debug\SerialPort Terminal.application
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\bin\Debug\SerialPort Terminal.pdb
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\obj\Debug\ResolveAssemblyReference.cache
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\obj\Debug\SerialPortTerminal.frmAbout.resources
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\obj\Debug\SerialPortTerminal.frmTerminal.resources
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\obj\Debug\SerialPortTerminal.Properties.Resources.resources
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\obj\Debug\ResGen.read.1.tlog
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\obj\Debug\ResGen.write.1.tlog
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\obj\Debug\SerialPort Terminal.exe.manifest
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\obj\Debug\SerialPort Terminal.application
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\obj\Debug\SerialPort Terminal.exe
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\obj\Debug\SerialPort Terminal.pdb
+C:\Dropbox\ARDUINO\PC_CONTROLLER\SerialPortTerminal\obj\Debug\SerialPortTerminal.hud.resources
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe.config
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPort Terminal.exe
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPort Terminal.pdb
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe.manifest
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\bin\Debug\SerialPort Terminal.application
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\bin\Debug\SerialPort Terminal.pdb
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\ResolveAssemblyReference.cache
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPortTerminal.frmAbout.resources
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPortTerminal.hud.resources
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPortTerminal.frmTerminal.resources
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPortTerminal.Properties.Resources.resources
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\ResGen.read.1.tlog
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\ResGen.write.1.tlog
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPort Terminal.exe.manifest
+C:\Dropbox\ARDUINO\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPort Terminal.application
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe.config
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPort Terminal.exe
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPort Terminal.pdb
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe.manifest
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\bin\Debug\SerialPort Terminal.application
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\bin\Debug\SerialPort Terminal.pdb
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\ResolveAssemblyReference.cache
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPortTerminal.frmAbout.resources
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPortTerminal.hud.resources
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPortTerminal.frmTerminal.resources
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPortTerminal.Properties.Resources.resources
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\ResGen.read.1.tlog
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\ResGen.write.1.tlog
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPort Terminal.exe.manifest
+C:\Dropbox\ARDUINO\VERSION_1\1_PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPort Terminal.application
+C:\Dropbox\ARDUINO\PC_SOFTWARE\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe.config
+C:\Dropbox\ARDUINO\PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPort Terminal.exe
+C:\Dropbox\ARDUINO\PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPort Terminal.pdb
+C:\Dropbox\ARDUINO\PC_SOFTWARE\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe.manifest
+C:\Dropbox\ARDUINO\PC_SOFTWARE\SerialPortTerminal\bin\Debug\SerialPort Terminal.application
+C:\Dropbox\ARDUINO\PC_SOFTWARE\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe
+C:\Dropbox\ARDUINO\PC_SOFTWARE\SerialPortTerminal\bin\Debug\SerialPort Terminal.pdb
+C:\Dropbox\ARDUINO\PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPortTerminal.frmAbout.resources
+C:\Dropbox\ARDUINO\PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPortTerminal.hud.resources
+C:\Dropbox\ARDUINO\PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPortTerminal.frmTerminal.resources
+C:\Dropbox\ARDUINO\PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPortTerminal.Properties.Resources.resources
+C:\Dropbox\ARDUINO\PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPort Terminal.exe.manifest
+C:\Dropbox\ARDUINO\PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPort Terminal.application
+C:\Dropbox\ARDUINO\PC_SOFTWARE\SerialPortTerminal\obj\Debug\SerialPortTerminal.csproj.GenerateResource.Cache
